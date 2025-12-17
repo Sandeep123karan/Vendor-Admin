@@ -7,7 +7,9 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./Sub-Categories.css";
+import SubCategories from "./SubCategories.jsx";
+
+
 
 export default function SubCategories() {
   const [categories, setCategories] = useState([]);

@@ -1,19 +1,19 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/Login';
-import VendorLogin from './pages/VendorLogin';
-import Dashboard from './pages/Dashboard';
-import Categories from './pages/Categories';
-import Signup from "./pages/Signup";
-import OrderHistory from './pages/OrderHistory';
-import AdminLayout from './pages/AdminLayout';
-import VendorKYC from "./pages/VendorKYC"; 
+import Login from './pages/Login.jsx';
+import VendorLogin from './pages/VendorLogin.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Categories from './pages/Categories.jsx';
+import Signup from "./pages/Signup.jsx";
+import OrderHistory from './pages/OrderHistory.jsx';
+import AdminLayout from './pages/AdminLayout.jsx';
+import VendorKYC from "./pages/VendorKYC.jsx"; 
 
 
-import ProductList from "./pages/ProductList";
-import OrderListPage from "./pages/OrderListPage";
-import Setting from "./pages/Setting";
-import VendorSignup from "./pages/VendorSignup"; // add this import
+import ProductList from "./pages/ProductList.jsx";
+import OrderListPage from "./pages/OrderListPage.jsx";
+import Setting from "./pages/Setting.jsx";
+import VendorSignup from "./pages/VendorSignup.jsx"; // add this import
 
 <Routes>
   <Route path="/vendorlogin" element={<VendorLogin />} />

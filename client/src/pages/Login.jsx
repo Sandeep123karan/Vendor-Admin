@@ -1,7 +1,9 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import logo from "../components/assets/2.png";
+import logo from "../assets/2.png";
+
+// import logo from "../components/assets/2.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");

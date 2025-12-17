@@ -13,8 +13,10 @@
 
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../components/assets/2.png";
-import Vendors from "../pages/Vendors";
+// import logo from "../components/assets/2.png";
+import logo from "../assets/2.png";
+
+import Vendors from "../pages/Vendors.jsx";
  // adjust path if needed
 
 import {
@@ -30,16 +32,16 @@ import {
 } from "react-icons/fi";
 import "./AdminLayout.css";
 
-import DashboardHome from "./Dashboard";
-import AdminOrdersPage from "./AdminOrdersPage";
-import OrderListPage from "./OrderListPage";
-import UsersPage from "./UsersPage";
-import Categories from "./Categories";
-import SubCategories from "./SubCategories";
-import AdminProductPage from "./AdminProductPage";
-import ProductList from "./ProductList";
-import OrderHistory from "./OrderHistory";
-import Setting from "./Setting";
+import DashboardHome from "./Dashboard.jsx";
+import AdminOrdersPage from "./AdminOrdersPage.jsx";
+import OrderListPage from "./OrderListPage.jsx";
+import UsersPage from "./UsersPage.jsx";
+import Categories from "./Categories.jsx";
+import SubCategories from "./SubCategories.jsx.";
+import AdminProductPage from "./AdminProductPage.jsx";
+import ProductList from "./ProductList.jsx";
+import OrderHistory from "./OrderHistory.jsx";
+import Setting from "./Setting.jsx";
 
 export default function AdminLayout() {
   const [active, setActive] = useState("Dashboard");
