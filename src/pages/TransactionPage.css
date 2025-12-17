@@ -1,0 +1,74 @@
+/* ===== Container Styling ===== */
+.payment-container {
+  padding: 30px;
+  max-width: 420px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease-in-out;
+  font-family: "Poppins", sans-serif;
+}
+
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+/* ===== Inputs Styling ===== */
+.payment-input {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid #d6d6d6;
+  outline: none;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+.payment-input:focus {
+  border-color: #3399ff;
+  box-shadow: 0 0 8px rgba(51, 153, 255, 0.3);
+}
+
+/* ====== 3D Blue Button ====== */
+.pay-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(180deg, #4da6ff, #0066cc);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #004c99;
+  transition: 0.2s ease;
+}
+
+.pay-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #004c99;
+}
+
+/* Hover Glow */
+.pay-btn:hover {
+  background: linear-gradient(180deg, #66b3ff, #0073e6);
+  box-shadow: 0 6px 15px rgba(0, 115, 230, 0.4);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

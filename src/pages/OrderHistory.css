@@ -1,0 +1,98 @@
+/* .history-container {
+  padding: 20px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.history-table th {
+  background: #ef4444;
+  color: white;
+  text-align: left;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.history-container {
+  padding: 20px;
+}
+
+/* ------------ Buttons Section ------------ */
+.btn-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.2s ease;
+  box-shadow: 0px 4px 0px #1e40af; /* 3D effect */
+}
+
+/* Export Button (Blue) */
+.export-btn {
+  background: #3b82f6;
+  color: white;
+}
+
+.export-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 1px 0px #1e40af;
+}
+
+/* Import Button (Green) */
+.import-btn {
+  background: blue;
+  color: white;
+  position: relative;
+}
+
+.import-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0px 1px 0px #15803d;
+}
+
+/* ------------ Table ------------ */
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.history-table th {
+  background: #ef4444;
+  color: white;
+  text-align: left;
+}

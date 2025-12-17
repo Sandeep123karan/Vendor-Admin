@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+.page {
+  padding: 20px;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-btn, .save-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #16a34a;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+.del-btn {
+  background: #dc2626;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.vendor-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+.vendor-table th, .vendor-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}

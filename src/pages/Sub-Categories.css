@@ -1,0 +1,191 @@
+
+
+
+
+.subcat-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f0f7ff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subcat-container h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #0f172a;
+  font-size: 28px;
+}
+
+.subcat-container > button {
+  background: linear-gradient(145deg, #3b82f6, #2563eb);
+  border: none;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px #1e40af;
+  transition: all 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.subcat-container > button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px #1e40af;
+}
+
+.subcat-container > button:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px #1e40af;
+}
+
+.form-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-card input,
+.form-card select {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+.form-card button {
+  background: linear-gradient(145deg, #3b82f6, #2563eb);
+  border: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px #1e40af;
+  transition: all 0.2s ease;
+}
+
+.form-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px #1e40af;
+}
+
+.form-card button:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px #1e40af;
+}
+
+.subcat-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.subcat-table th,
+.subcat-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.subcat-table th {
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.subcat-table tr {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+  display: table-row;
+}
+
+.subcat-table tr:hover {
+  background: #e0f2fe;
+}
+
+.actions-col button {
+  margin-right: 10px;
+  padding: 6px 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  /* box-shadow: 0 4px blue; */
+  transition: all 0.2s ease;
+}
+
+.actions-col .btn-edit {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.actions-col .btn-edit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px #1e40af;
+}
+
+.actions-col .btn-edit:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px #1e40af;
+}
+
+.actions-col .btn-delete {
+  background: #ef4444;
+  color: #fff;
+}
+
+.actions-col .btn-delete:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px #b91c1c;
+}
+
+.actions-col .btn-delete:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px #b91c1c;
+}
+
+.preview-img,
+.table-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #2563eb;
+}
+
+@media (max-width: 768px) {
+  .subcat-container {
+    padding: 15px;
+  }
+
+  .form-card input,
+  .form-card select,
+  .form-card button {
+    width: 100%;
+  }
+
+  .actions-col button {
+    margin-bottom: 5px;
+  }
+} 
